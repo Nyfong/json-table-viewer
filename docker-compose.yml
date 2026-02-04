@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   json-viewer:
     build:
-      context: ./my-app
+      context: .
       dockerfile: Dockerfile
     container_name: dsp-json-viewer
     ports:
